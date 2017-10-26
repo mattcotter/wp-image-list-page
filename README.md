@@ -12,7 +12,7 @@ Medium sized images can only have a max height/width of 300px. Using Wordpress's
 ## Modifying
 You can modify the page to look for specific mime-types (jpg/png/pdf) or different sizes of the featured image
 
-If I was going to look for mime-type, I would just use ```php if (($mime == 'image/pdf') && ($open)) { ... } ``` in my statement
+If I was going to look for mime-type, I would just use ``` if (($mime == 'image/pdf') && ($open)) { ... } ``` in my statement
 
 For standard images like .png or .jpg, Wordpress also has various sizes of your media saved. You can remove ```'medium'``` (remember to remove the comma and modify your if statement, as well) from ``` $url ``` to list your original image, disregarding resolution.
 
